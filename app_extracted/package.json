@@ -1,0 +1,19 @@
+{
+  "name": "newton-school-mac-book-app",
+  "version": "0.0.84",
+  "description": "Newton School Mac Book App",
+  "license": "MIT",
+  "author": {
+    "name": "Newton School Developers",
+    "email": "tech@newtonschool.co",
+    "url": "https://newtonschool.co"
+  },
+  "main": "./dist/main/main.js",
+  "dependencies": {},
+  "devDependencies": {
+    "electron-builder": "^24.13.3"
+  },
+  "scripts": {
+    "dist": "electron-builder"
+  }
+}
